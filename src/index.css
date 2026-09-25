@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #F8FAFC;
+  color: #0F172A;
+  overflow-x: hidden;
+}
+
+code, pre, .font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+button,
+a,
+[role="button"],
+select,
+input[type="submit"],
+input[type="button"],
+label[for] {
+  cursor: pointer;
+}
