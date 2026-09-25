@@ -23,9 +23,9 @@ export const Hero: React.FC<HeroProps> = ({
     <section className="relative pt-16 pb-20 px-6 max-w-7xl mx-auto">
       {/* Background Subtle Ambient Glow */}
       <div
-        className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] blur-[120px] opacity-15 pointer-events-none transition-colors duration-700"
-        style={{ backgroundColor: accent }}
-      />
+  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[90vw] sm:w-[600px] h-[300px] sm:h-[350px] blur-[100px] sm:blur-[120px] opacity-15 pointer-events-none transition-colors duration-700"
+  style={{ backgroundColor: accent }}
+/>
 
       <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
 
