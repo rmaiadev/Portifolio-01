@@ -162,13 +162,13 @@ export function Footer({
         {
             id: 'github',
             label: 'GITHUB',
-            href: 'https://github.com/',
+            href: 'https://github.com/rmaiadev',
             icon: Github,
         },
         {
             id: 'linkedin',
             label: 'LINKEDIN',
-            href: 'https://www.linkedin.com/',
+            href: 'https://www.linkedin.com/in/renan-maia-dev/',
             icon: Linkedin,
         },
         {
