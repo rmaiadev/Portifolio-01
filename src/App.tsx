@@ -98,14 +98,13 @@ export default function App() {
         onOpenContact={() => setIsContactOpen(true)}
       />
 
-      {/* Interactive Modals */}
-      <TerminalModal
-        isOpen={isTerminalOpen}
-        onClose={() => setIsTerminalOpen(false)}
-        lang={lang}
-        accent={accent}
-        soundEnabled={soundEnabled}
-      />
+  {/* <TerminalModal
+  isOpen={isTerminalOpen}
+  onClose={() => setIsTerminalOpen(false)}
+  lang={lang}
+  accent={accent}
+  soundEnabled={soundEnabled}
+/> */}
 
       <ContactModal
         isOpen={isContactOpen}
